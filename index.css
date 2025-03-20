@@ -1,20 +1,12 @@
 *{
     text-transform: capitalize;
 }
-   @media screen and (max-width: 1024px) {
-            body::before {
-                content: "Please enable 'Desktop Site' to view this website.";
-                display: block;
-                text-align: center;
-                font-size: 18px;
-                font-weight: bold;
-                color: red;
-                padding: 20px;
-            }
-            .content {
-                display: none;
-            }
-        }
+  @media screen and (max-width: 1024px) {
+    body {
+        display: none;
+    }
+}
+
 /* Social Media Icon Styles */
         .fa {
             padding: 5px;
